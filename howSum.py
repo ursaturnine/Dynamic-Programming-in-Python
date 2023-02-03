@@ -25,7 +25,7 @@ def howSum(targetSum, numbers):
 
     return None
 
-
+# O(NM)
 # dynamic programming approach
 def howSumDynamic(targetSum, numbers, memo=None):
     if memo is None:
